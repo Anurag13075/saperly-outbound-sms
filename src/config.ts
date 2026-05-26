@@ -10,6 +10,7 @@ export interface Config {
   baseUrl?: string;
   status?:string ;
   mockcall?:string;
+  Noofattempts?:string 
   
 }
 

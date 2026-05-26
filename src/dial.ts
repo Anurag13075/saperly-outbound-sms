@@ -115,7 +115,7 @@ async function grantConsentSafe(
     if (err instanceof ConsentAlreadyGrantedError) {
       return; // already on file — perfectly fine
     }
-    throw new err;
+    throw  err;
   }
 }
 

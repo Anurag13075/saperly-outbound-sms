@@ -46,6 +46,7 @@ async function main(): Promise<void> {
     config = loadConfig();
   } catch (err) {
     console.error(chalk.red("\n✖ " + (err as Error).message));
+    console.log(err)
     process.exit(1);
   }
 

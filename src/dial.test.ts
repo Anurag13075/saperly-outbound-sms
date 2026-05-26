@@ -12,6 +12,7 @@ const mockCallsCreate = vi.fn();
 vi.mock("@saperly/sdk", () => {
   class ConsentAlreadyGrantedError extends Error {
     constructor() {
+      console.log('inside the constructor')
       super("consent already granted");
     }
   }

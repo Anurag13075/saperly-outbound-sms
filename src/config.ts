@@ -9,6 +9,8 @@ export interface Config {
   apiKey: string;
   baseUrl?: string;
   status?:string ;
+  mockcall?:string;
+  
 }
 
 export function loadConfig(): Config {

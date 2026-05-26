@@ -30,14 +30,15 @@ $ npx saperly-dial
 
 Requires Node.js 18+.
 
-**Run without installing:**
-```bash
-npx saperly-dial
-```
 
 **Install globally:**
 ```bash
 npm install -g saperly-dial
+```
+
+**Run without installing:**
+```bash
+npx saperly-dial
 ```
 
 ## Quickstart

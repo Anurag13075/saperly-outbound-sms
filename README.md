@@ -4,7 +4,7 @@ Type a message. Call a phone number. Saperly reads it aloud.
 
 A minimal CLI built on the [`@saperly/sdk`](https://github.com/Saperly/saperly-node). Useful as a getting-started reference or a scriptable notification tool for AI agents.
 
-## Demo
+## Demo  
 
 ```
 $ npx saperly-dial

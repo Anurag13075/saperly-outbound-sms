@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 
 // ---------------------------------------------------------------------------
-// Mock @saperly/sdk before importing the module under test
+// Mock @saperly/sdk before importing the module under test 
 // ---------------------------------------------------------------------------
 const mockLinesList = vi.fn();
 const mockLinesCreate = vi.fn();

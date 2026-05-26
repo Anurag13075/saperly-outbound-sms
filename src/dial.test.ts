@@ -7,7 +7,7 @@ const mockLinesList = vi.fn();
 const mockLinesCreate = vi.fn();
 const mockConsentGrant = vi.fn();
 const mockCallsCreate = vi.fn();
-const mockCallstatus = vi.fun();
+
 
 vi.mock("@saperly/sdk", () => {
   class ConsentAlreadyGrantedError extends Error {

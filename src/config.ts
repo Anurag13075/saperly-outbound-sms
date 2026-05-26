@@ -8,12 +8,19 @@
 export interface Config {
   apiKey: string;
   baseUrl?: string;
-  status?:string ;
+  status?: statusisup;
   mockcall?:string;
   Noofattempts?:string 
   
 }
 
+enum statusisup {
+  pending ,
+  done ,
+  iscompleted 
+
+
+}
 export function loadConfig(): Config {
   const apiKey = process.env["SAPERLY_API_KEY"];
   if (!apiKey) {

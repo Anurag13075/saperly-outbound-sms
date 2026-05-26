@@ -21,6 +21,12 @@ enum statusisup {
 
 
 }
+
+if(statusisup=="pending"){
+
+console.log("wait for some time")
+
+}
 export function loadConfig(): Config {
   const apiKey = process.env["SAPERLY_API_KEY"];
   if (!apiKey) {

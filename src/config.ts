@@ -8,6 +8,7 @@
 export interface Config {
   apiKey: string;
   baseUrl?: string;
+  status?:string ;
 }
 
 export function loadConfig(): Config {
